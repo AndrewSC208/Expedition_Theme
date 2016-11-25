@@ -1,6 +1,5 @@
-/* CUSTOMIZE THE CAROUSEL
+/* CUSTOMIZE THE MAIN-CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -8,7 +7,7 @@
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 25%;
+  bottom: 10%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -43,7 +42,15 @@
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption {
-    bottom: 35%;
+    bottom: 10%;
+    
+    .display-3 {
+      margin-bottom: 5rem;
+    }
+
+    .lead {
+      margin-bottom: 3rem;
+    }
   }
   .carousel-item {
     height: 52rem;
@@ -60,3 +67,4 @@
   }
 
 }
+
