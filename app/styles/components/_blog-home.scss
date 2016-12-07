@@ -1,5 +1,4 @@
-// PORTFOLIO SECTION:
-.portfolio-card {
+.blog-home-card {
 	margin-bottom: 0px;
 	position: relative;
 	border: none;
@@ -27,13 +26,9 @@
 
 }
 
-// home page specific:
-section.portfolio {
-
-	.row {
-		margin-bottom: 4px;
-	}
-
+// this is going to be more layout type stuff I think:
+section.blog-home {
+	
 	.jumbotron {
 		padding: 10px;
 		margin: 0px;
@@ -41,10 +36,5 @@ section.portfolio {
 		min-height: 273px;
 	}
 
-	.dbl-card {
-
-		img {
-			min-height: 273px;
-		}
-	}
+	
 }
