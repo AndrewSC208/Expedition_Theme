@@ -1,0 +1,12 @@
+
+// GLOBAL STYLES THAT CAN BE USED ALL PLACES;
+// remove gutters for 
+// 0px gutter
+.no-gutter.row {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.no-gutter > [class^="col-"], .no-gutter > [class^=" col-"]{
+  padding-right: 2px;
+  padding-left: 2px;
+}

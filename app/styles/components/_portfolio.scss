@@ -1,9 +1,12 @@
 // PORTFOLIO SECTION:
 section.portfolio {
 
-
+	.row {
+		margin-bottom: 4px;
+	}
 
 	.portfolio-card {
+		margin-bottom: 0px;
 		position: relative;
 		border: none;
 		color: rgba(255,255,255, 1);
@@ -31,6 +34,16 @@ section.portfolio {
 
 	.jumbotron {
 		padding: 10px;
+		margin: 0px;
 		border-radius: 0rem;
+		min-height: 273px;
+
+	}
+
+	.dbl-card {
+
+		img {
+			min-height: 273px;
+		}
 	}
 }

@@ -11,6 +11,9 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
+// Global:
+@import '_global.scss';
+
 // components:
 @import 'components/_main-carousel.scss';
 @import 'components/_main-marketing-cards.scss';
