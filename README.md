@@ -1,2 +1,2 @@
 TO DO's:
-Create testamonial section!
+Wireframe blog section
