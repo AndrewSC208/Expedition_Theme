@@ -1,39 +1,15 @@
-.blog-home-card {
-	margin-bottom: 0px;
-	position: relative;
-	border: none;
-	color: rgba(255,255,255, 1);
-
-	.card-img-top {
-		border-top-right-radius: 0;
-		border-top-left-radius: 0;
-
-		img {
-			overflow: hidden;
-			width: 100%;
-		}
-	}
-	
-	.card-block {
-		position: absolute;
-		bottom: 0px;
-		padding: 15px;
-
-		.card-title {
-			margin-bottom: 0rem;
-		}
-	}
-
-}
-
 // this is going to be more layout type stuff I think:
-section.blog-home {
-	
-	.jumbotron {
-		padding: 10px;
-		margin: 0px;
-		border-radius: 0rem;
-		min-height: 273px;
+section.blog {
+	.card {
+		border: 0px;
+		margin-bottom: 0rem;
+		min-height: 278px;
+	}
+
+	.blog-date {
+		position: absolute;
+		bottom: 1rem;
+		font-size: .75rem;
 	}
 
 }

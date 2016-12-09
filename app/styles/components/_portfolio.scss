@@ -1,50 +1,25 @@
-// PORTFOLIO SECTION:
-.portfolio-card {
-	margin-bottom: 0px;
-	position: relative;
-	border: none;
-	color: rgba(255,255,255, 1);
-
-	.card-img-top {
-		border-top-right-radius: 0;
-		border-top-left-radius: 0;
-
-		img {
-			overflow: hidden;
-			width: 100%;
-		}
-	}
-	
-	.card-block {
-		position: absolute;
-		bottom: 0px;
-		padding: 15px;
-
-		.card-title {
-			margin-bottom: 0rem;
-		}
-	}
-
-}
-
 // home page specific:
 section.portfolio {
+	.portfolio-card-text {
+		position: absolute;	
+		bottom: 0px;
+		padding: .25rem;
 
-	.row {
-		margin-bottom: 4px;
-	}
+		.card-title {
+			margin-bottom: 0px;
 
-	.jumbotron {
-		padding: 10px;
-		margin: 0px;
-		border-radius: 0rem;
-		min-height: 273px;
-	}
-
-	.dbl-card {
-
-		img {
-			min-height: 273px;
 		}
+
+		.card-text {
+			margin-bottom: 0px;
+		}
+		
 	}
+
+	.card {
+		border: 0px;
+		margin-bottom: .25rem;
+		min-height: 278px;
+	}
+	
 }
