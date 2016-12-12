@@ -21,5 +21,22 @@ $icon-font-path: '../fonts/';
 @import 'components/_facts.scss';
 @import 'components/_portfolio.scss';
 @import 'components/_testamonial.scss';
-@import 'components/_blog-home.scss';
+@import 'components/_home-blog.scss';
 @import 'components/_footer.scss';
+
+// Blog sections:
+@import 'components/_blog-header.scss';
+@import 'components/_blog-roll.scss';
+
+
+// Small devices (landscape phones, 544px and up)
+// @media (min-width: 544px) { ... }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

@@ -1,0 +1,16 @@
+//======= BLOG HEADERS =======// 
+.blog_v4 {
+	header#header {
+		background: url("http://res.cloudinary.com/drkmakxkk/image/upload/v1473477211/vw-bg_xzavb4.jpg") no-repeat center fixed; 
+		background-size: cover;	
+		min-height: 760px;
+
+		@media (max-width: 544px) {
+			min-height: 760px;  	
+		}
+
+		.jumbotron {
+			background-color: rgba(255,255,255,0);
+		}
+	}
+}
