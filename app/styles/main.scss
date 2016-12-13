@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import 'bower_components/bootstrap/scss/bootstrap.scss';
+@import 'bower_components/css-hamburgers/_sass/hamburgers/hamburgers.scss';
 // endbower
 
 .browserupgrade {
@@ -13,6 +14,9 @@ $icon-font-path: '../fonts/';
 
 // Global:
 @import '_global.scss';
+
+// nav:
+@import 'components/_nav.scss';
 
 // components:
 @import 'components/_main-carousel.scss';
