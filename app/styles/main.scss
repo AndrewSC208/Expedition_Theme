@@ -33,6 +33,10 @@ $icon-font-path: '../fonts/';
 @import 'components/_blog-roll.scss';
 @import 'components/_blog-pagination.scss';
 
+// About Sections:
+@import 'components/_about-header.scss';
+@import 'components/_about-out-team.scss';
+
 
 // Small devices (landscape phones, 544px and up)
 // @media (min-width: 544px) { ... }
