@@ -46,7 +46,7 @@ body {
   width: 256px;
   min-height: 100vh;
   // this is what is causing the scroll bars. Might need ot come up with a better solution for this. 
-  overflow-y: scroll;
+  //overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   z-index: 0;
   display: none;
