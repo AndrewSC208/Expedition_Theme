@@ -12,13 +12,17 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
-// Global:
+//Theme:
+@import 'theme/_variables.scss';
+
+// Global Utilise:
 @import '_global.scss';
 
-// nav:
+// Components:
 @import 'components/_nav.scss';
+@import 'components/_header.scss';
 
-// components:
+// Home Page Sections:
 @import 'components/_main-carousel.scss';
 @import 'components/_main-marketing-cards.scss';
 @import 'components/_marketing-carousel.scss';
@@ -28,15 +32,15 @@ $icon-font-path: '../fonts/';
 @import 'components/_home-blog.scss';
 @import 'components/_footer.scss';
 
-// Blog sections:
-@import 'components/_blog-header.scss';
+// Blog Page sections:
 @import 'components/_blog-roll.scss';
 @import 'components/_blog-pagination.scss';
 
-// About Sections:
-@import 'components/_about-header.scss';
+// About Page Sections:
 @import 'components/_about-our-team.scss';
 
+// Blog Post Page Sections:
+@import 'components/_blog-post.scss';
 
 // Small devices (landscape phones, 544px and up)
 // @media (min-width: 544px) { ... }
