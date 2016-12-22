@@ -29,14 +29,14 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: #19198c;
+   background-color: $gray-light;
    opacity: 0.4;
 }
 
 .circle {
   position: absolute;
   color: rgba(255,255,255, 1);
-  background-color: $primary-color;
+  background-color: $brand-primary;
   width: 3.2rem;
   height: 3.2rem;
   -moz-border-radius: 50px;
