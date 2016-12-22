@@ -20,8 +20,11 @@ $icon-font-path: '../fonts/';
 		
 		
 		// Alerts
+		@import 'components/_alerts.scss';
 		// Breadcrumb
+		@import 'components/_breadcrumb.scss';
 		// Buttons
+		@import 'components/_buttons.scss';
 		// Button group
 		// Card
 		// Carousel
