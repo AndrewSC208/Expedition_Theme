@@ -14,15 +14,41 @@ $icon-font-path: '../fonts/';
 
 //Theme:
 @import 'theme/_variables.scss';
+	// should me the reusable component's to the theme
+		// Reusable Components:
+		@import 'components/_header.scss';
+		
+		
+		// Alerts
+		// Breadcrumb
+		// Buttons
+		// Button group
+		// Card
+		// Carousel
+		@import 'components/_carousel.scss';
+		// Collapse
+		// Dropdowns
+		// Forms
+		// Input group
+		// Jumbotron
+		// List group
+		// Modal
+		// Navs
+		// Navbar
+		@import 'components/_navbar.scss';
+		// Pagination
+		// Popovers
+		// Progress
+		// Scrollspy
+		// Tag
+		// Tooltips
 
 // Global Utilise:
 @import '_global.scss';
 
-// Components:
-@import 'components/_nav.scss';
-@import 'components/_header.scss';
+// Sections:
+// HEADERS:
 
-// Home Page Sections:
 @import 'components/_main-carousel.scss';
 @import 'components/_main-marketing-cards.scss';
 @import 'components/_marketing-carousel.scss';
@@ -31,6 +57,8 @@ $icon-font-path: '../fonts/';
 @import 'components/_testamonial.scss';
 @import 'components/_home-blog.scss';
 @import 'components/_footer.scss';
+
+// Pages: 
 
 // Blog Page sections:
 @import 'components/_blog-roll.scss';
