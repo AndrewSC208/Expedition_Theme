@@ -12,65 +12,62 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
-//Theme:
-@import 'theme/_variables.scss';
-	// should me the reusable component's to the theme
-		// Reusable Components:
-		@import 'components/_header.scss';
-		
-		
-		// Alerts
-		@import 'components/_alerts.scss';
-		// Breadcrumb
-		@import 'components/_breadcrumb.scss';
-		// Buttons
-		@import 'components/_buttons.scss';
-		// Button group
-		// Card
-		// Carousel
-		@import 'components/_carousel.scss';
-		// Collapse
-		// Dropdowns
-		// Forms
-		// Input group
-		// Jumbotron
-		// List group
-		// Modal
-		// Navs
-		// Navbar
-		@import 'components/_navbar.scss';
-		// Pagination
-		// Popovers
-		// Progress
-		// Scrollspy
-		// Tag
-		// Tooltips
-
 // Global Utilise:
 @import '_global.scss';
 
-// Sections:
-// HEADERS:
+//Theme Variables:
+@import 'theme/_variables.scss';
 
-@import 'components/_main-carousel.scss';
-@import 'components/_main-marketing-cards.scss';
-@import 'components/_marketing-carousel.scss';
-@import 'components/_facts.scss';
-@import 'components/_portfolio.scss';
-@import 'components/_testamonial.scss';
-@import 'components/_home-blog.scss';
-@import 'components/_footer.scss';
+// Components:		
+// Alerts
+@import 'components/_alerts.scss';
+// Breadcrumb
+@import 'components/_breadcrumb.scss';
+// Buttons
+@import 'components/_buttons.scss';
+// Button group
+// Card
+// Carousel
+@import 'components/_carousel.scss';
+// Collapse
+// Dropdowns
+// Forms
+// Input group
+// Jumbotron
+// List group
+// Modal
+// Navs
+// Navbar
+@import 'components/_navbar.scss';
+// Pagination
+// Popovers
+// Progress
+// Scrollspy
+// Tag
+// Tooltips
+// side-menu
+@import 'components/_side-menu.scss';
+
+// Sections:
+@import 'sections/_main-carousel.scss';
+@import 'sections/_main-marketing-cards.scss';
+@import 'sections/_marketing-carousel.scss';
+@import 'sections/_facts.scss';
+@import 'sections/_portfolio.scss';
+@import 'sections/_testamonial.scss';
+@import 'sections/_home-blog.scss';
+@import 'sections/_footer.scss';
 
 // Pages: 
 
-// Blog Page sections:
+// Blog Page:
 @import 'components/_blog-roll.scss';
 @import 'components/_blog-pagination.scss';
 
-// About Page Sections:
+// About Page:
 @import 'components/_about-our-team.scss';
 
-// Blog Post Page Sections:
+// Blog Post Page:
 @import 'components/_blog-post.scss';
 
 // Small devices (landscape phones, 544px and up)
