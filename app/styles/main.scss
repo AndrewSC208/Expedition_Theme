@@ -49,7 +49,10 @@ $icon-font-path: '../fonts/';
 @import 'components/_side-menu.scss';
 
 // Sections:
-@import 'sections/_main-carousel.scss';
+// VVVV working on VVVV
+@import 'sections/_main-header.scss';
+
+
 @import 'sections/_main-marketing-cards.scss';
 @import 'sections/_marketing-carousel.scss';
 @import 'sections/_facts.scss';
@@ -72,7 +75,10 @@ $icon-font-path: '../fonts/';
 
 // Small devices (landscape phones, 544px and up)
 // @media (min-width: 544px) { ... }
+// sm
+// 544 X 848
 
+// 
 // Medium devices (tablets, 768px and up)
 // @media (min-width: 768px) { ... }
 

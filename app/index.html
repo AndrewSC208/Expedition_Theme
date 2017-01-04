@@ -40,21 +40,39 @@
     </nav>
 
     <div id="panel">
-
-      <nav class="navbar navbar-fixed-top">
-
-        <button class="hamburger hamburger--collapse" type="button" onclick="slideout.toggle()">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-        
-      </nav>
-      
     
-
+    <button class="menu-btn hamburger hamburger--collapse" type="button" onclick="slideout.toggle()">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  
     <header class="main-header">
 
+      <img class="background-image"
+        srcset="http://lorempixel.com/1650/1021/ 1200w, http://lorempixel.com/1000/600/ 993w, http://lorempixel.com/768/1024/ 769w, http://lorempixel.com/544/848/  545w"
+        src="http://lorempixel.com/544/848/"
+        alt="Expedition Main Background" />
+
+        <!-- <picture alt="description of image"> -->
+
+          <!-- low-res, default -->
+          <!-- <source src="http://lorempixel.com/544/848/"> -->
+        
+          <!-- med-res -->
+          <!-- <source src="http://lorempixel.com/768/1024/" media="(min-width: 768px)"> -->
+        
+          <!-- large-res -->
+          <!-- <source src="http://lorempixel.com/992/620/" media="(min-width: 992px)"> -->
+
+          <!-- xLarge-res -->
+          <!-- <source src="http://lorempixel.com/1200/750/" media="(min-width: 1200px)"> -->
+        
+          <!-- Fallback content -->
+          <!-- <img src="http://lorempixel.com/544/848/" alt="description of image"> -->
+        
+        <!-- </picture> -->
+      
     </header>
 
     <div class="container">

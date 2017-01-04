@@ -1,0 +1,28 @@
+header.main-header {
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100vh;
+	background-color: $gray-lighter;
+
+	.background-image {
+		max-width: 100%;
+    height: auto;
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+// @media (min-width: 544px) { ... }
+// sm
+// 544 X 848
+
+// 
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+// 768 X 1024
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
