@@ -1,9 +1,6 @@
-const slideout = new Slideout({
-  'panel': document.getElementById('panel'),
-  'menu': document.getElementById('menu'),
-  'padding': 256,
-  'tolerance': 70
+// not sure I like this, but I will look into how I can turn this into a class or something, maybe even drop the dependency on jquery
+$(".menu-btn").on('click', (el) => {
+	$('.menu-btn').toggleClass('open');
+	$('.side-menu').toggleClass('open');
+	$('.hamburger').toggleClass('is-active');
 });
-
-
-

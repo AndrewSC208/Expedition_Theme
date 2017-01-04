@@ -27,9 +27,21 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    
+    <div class="menu-btn">
+      <button class="hamburger hamburger--collapse" type="button"">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
 
-    <!-- I will need to add the side navigation here! -->
-    <nav id="menu">
+    <nav class="side-menu">
+      <div class="side-menu-logo">
+        <img src="http://res.cloudinary.com/drkmakxkk/image/upload/v1478823780/saturn_vwu2po.svg" alt="">
+        <p class="brand-text">Brand</p>
+      </div>
+
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/pages/blog-v4.html">Blog v4</a></li>
@@ -39,20 +51,20 @@
       </ul>
     </nav>
 
-    <div id="panel">
+    <!-- <div id="panel"> -->
     
-    <button class="menu-btn hamburger hamburger--collapse" type="button" onclick="slideout.toggle()">
+<!--     <button class="menu-btn hamburger hamburger--collapse" type="button" onclick="slideout.toggle()">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
-    </button>
+    </button> -->
   
-    <header class="main-header">
+    <!-- <header class="main-header"> -->
 
-      <img class="background-image"
+<!--       <img class="background-image"
         srcset="http://lorempixel.com/1650/1021/ 1200w, http://lorempixel.com/1000/600/ 993w, http://lorempixel.com/768/1024/ 769w, http://lorempixel.com/544/848/  545w"
         src="http://lorempixel.com/544/848/"
-        alt="Expedition Main Background" />
+        alt="Expedition Main Background" /> -->
 
         <!-- <picture alt="description of image"> -->
 
@@ -73,7 +85,7 @@
         
         <!-- </picture> -->
       
-    </header>
+    <!-- </header> -->
 
     <div class="container">
       <section class="main-marketing-cards">
@@ -417,12 +429,7 @@
       <div class="footer-bottom">
         <p class="text-xs-center">footer things will need to go here</p>
       </div>
-        
       
-    </footer> <!-- #/panel -->
-
-
-    
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
