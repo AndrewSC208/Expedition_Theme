@@ -8,6 +8,9 @@ section.main-marketing-cards {
 		position: relative;
 		min-height: 31vh;
 		text-align: center;
+		display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 
 		img {
 			width: 4rem;
@@ -15,9 +18,7 @@ section.main-marketing-cards {
 		}
 
 		.card-wrapper {
-			position: absolute;
-  		top: 50%;
-  		transform: translateY(-50%);
+			
 		}
 	}
 
