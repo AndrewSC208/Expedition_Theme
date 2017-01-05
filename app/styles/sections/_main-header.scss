@@ -4,15 +4,22 @@ header.main-header {
 	left: 0;
 	min-height: 100vh;
 	background-color: $gray-lighter;
+	
 
+	.header-background {
+
+		img {
+			width: 100%;
+		}
+	}
 }
 
-// Small devices (landscape phones, 544px and up)
-// @media (min-width: 544px) { ... }
-// sm
-// 544 X 848
+// Ex small:
+// @media (0px - 543px)
 
-// 
+// Small Devices:
+// @media (min-width: 544px) { ... }
+
 // Medium devices (tablets, 768px and up)
 // @media (min-width: 768px) { ... }
 // 768 X 1024
@@ -21,4 +28,3 @@ header.main-header {
 // @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-// @media (min-width: 1200px) { ... }

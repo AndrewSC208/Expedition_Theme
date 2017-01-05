@@ -50,10 +50,9 @@ $icon-font-path: '../fonts/';
 
 // Sections:
 // VVVV working on VVVV
-@import 'sections/_main-header.scss';
+@import 'sections/_main-header.scss'; // Finish responsive images, add text, and button
+@import 'sections/_main-marketing-cards.scss'; // (Done)
 
-
-@import 'sections/_main-marketing-cards.scss';
 @import 'sections/_marketing-carousel.scss';
 @import 'sections/_facts.scss';
 @import 'sections/_portfolio.scss';
@@ -72,6 +71,8 @@ $icon-font-path: '../fonts/';
 
 // Blog Post Page:
 @import 'components/_blog-post.scss';
+
+// xSmall (0 - 543px)
 
 // Small devices (landscape phones, 544px and up)
 // @media (min-width: 544px) { ... }
