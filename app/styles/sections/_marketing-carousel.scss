@@ -1,9 +1,23 @@
 .marketing-carousel {
 
 	.card {
+		margin-bottom: 0px;
 		border: 1px solid rgba(255,255,255, 0);
 		background-color: $gray-lighter;
+		min-height: 66vh;
+		text-align:center;
+
+		.card-block {
+			padding-top: 2.5rem;
+			padding-bottom: 2.5rem;
+		}
+
+		.card-title {
+			padding-bottom: 1.5rem;
+		}
 	}
+
+	
 
 	#main-marketing-carousel {
 		/* Declare heights because of positioning of img element */
